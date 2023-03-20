@@ -1,0 +1,91 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+/* iOS places the subtitle above the title */
+ion-card-header {
+  display: flex;
+  flex-flow: column-reverse;
+
+}
+
+.caixap{
+  width: 95%;
+  height: 150px;
+  
+}
+
+ion-card{
+  width: 350px;
+  height:80px ;
+  float:left;
+ 
+}
+ion-title{
+  float:left;
+  margin-top: 10px;
+}
+ion-searchbar{
+  margin-left:80px ;
+  float:left;
+  width: 800px;
+}
+
+.caixa{
+  padding-left: 150px;
+}
+
+ion-toolbar img{
+float:left;
+margin-top: 10px;
+margin-left: 10px;
+}
+ion-toolbar{
+  height: 80px;
+}
+
+.caixa2{
+  margin-left: 70px;
+  width: 85%;
+  height:180px ;
+  
+}
+
+.caixa3{
+float: left;
+height: 250px;
+width: 150px;
+}
+
+.login{
+width: 100px;
+height: 100px;
+background-color: green;
+float: left;
+}
+
+
